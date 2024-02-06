@@ -144,7 +144,8 @@ body {
 	font-weight: 400;
 	background-color: #fff;
 	font-size: 16px;
-	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -823,6 +824,15 @@ about
 	padding: 100px 0px;
 	position: relative;
 	z-index: 9;
+}
+.about-tittle {
+	font-weight: 700;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.about-tittle span {
+	color: #f4813f;
 }
 
 @media (max-width: 992px) {
