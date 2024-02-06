@@ -886,7 +886,7 @@ about
 
 .bring-to-top {
 	position: relative;
-	z-index: 999;
+	z-index: 1;
 }
 
 /*
@@ -1066,6 +1066,17 @@ testimonials
 footer
 --------------------------------------------- 
 */
+
+.contact-tittle {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.contact-tittle span {
+	color: #f4813f;
+}
 
 @media (max-width: 992px) {
 	footer {
