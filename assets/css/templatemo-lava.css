@@ -877,6 +877,18 @@ about
 	display: inline-block;
 }
 
+.events-desc {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.bring-to-top {
+	position: relative;
+	z-index: 999;
+}
+
 /*
 ---------------------------------------------
 promotion
